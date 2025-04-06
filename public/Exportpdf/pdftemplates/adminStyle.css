@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+  --text-color: #282828;
+  --text-light-color: #757575;
+  --custom-color: #480082;
+  --secondary-color: #fbb03b;
+  --white-color: #fff;
+  --border-color: #e3e3e3;
+  --success-color: #35ba67;
+  --primary-color: #1ca4e8;
+  --danger-color: #fd4646;
+  --progress-bar-color: #7eb155;
+}
+
+/* Sidebar Style CSS Starts Here */
+.sidebar-wrapper ul li {
+  font-family: 'Poppins';
+}
+
+/* .sidebar-wrapper ul li.active {
+    background: var(--primary-color-one) !important;
+}
+.sidebar-wrapper ul li:hover {
+    background: var(--primary-color-one) !important;
+} */
+/* .sidebar-wrapper .sidemenu-title {
+  background: var(--white-color);
+  padding: 10px 22px;
+  text-align: left;
+  color: var(--text-color) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Poppins';
+  font-weight: 800;
+} */
+
+/* Sidebar Style CSS Ends Here */
+
+/* Navbar CSS Starts Here */
+.opentoggle .list {
+  background: var(--white-color);
+  color: var(--text-color);
+  border-radius: 6px;
+  font-size: 30px !important;
+  padding: 7px;
+  height: 40%;
+  width: 40%;
+}
+
+.common-profile-style {
+  color: var(--primary-color-two) !important
+}
+
+/* Navbar CSS Starts Ends */
+
+
+
+/* Webadmin Dashboard CSS Starts */
+.bg-one {
+  background-color: var(--primary-color-one) !important;
+}
+
+.bg-two {
+  background-color: var(--primary-color-two) !important;
+}
+
+.bg-three {
+  background-color: var(--supporting-color-one) !important;
+}
+
+.bg-four {
+  background-color: var(--supporting-color-two) !important;
+}
+
+.bg-five {
+  background-color: var(--supporting-color-three) !important;
+}
+
+.bg-six {
+  background-color: #9CCA60 !important;
+}
+
+.deactive-btn {
+  background-color: #FD4646;
+}
+
+/* .deactive-btn:hover {
+  background-color: #fd9079 !important;
+  color: #FD4646;
+} */
+
+/* .active-btn {
+  background-color: #1CA4E8;
+  padding-right: 50px;
+}
+
+.active-btn :hover {
+  background-color: #60bfee !important;
+  color: #1CA4E8;
+} */
+
+.text-white {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.title-style-webadmin {
+  font-size: 25px;
+  font-family: 'Public Sans';
+  font-weight: 800;
+  color: #202020 !important;
+}
+
+/* Webadmin Dashboard CSS Ends */
+
+
+/* User Details CSS Sarts  */
+h1.card-title.text-left.fw-bold.user-title {
+  font-family: 'Poppins';
+  color: #480082;
+}
+
+.user-sub-titles {
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #202020;
+  margin-bottom: 0;
+}
+
+span.user-input-fields-style {
+  font-family: '__Public_Sans_6f95b7';
+  color: black;
+  font-weight: 400;
+}
+
+.notification-style {
+  padding-top: 50px;
+}
+
+/* .mantine-1vx01bc[data-with-border] {
+    border: 0.0625rem solid #dee2e6;
+    border-radius: 10px;
+} */
+/* .mantine-1u6lyog th {
+    color: #fff;
+    background-color: var(--primary-color-one);
+} */
+.mantine-16zezzz {
+  font-family: 'Poppins';
+}
+
+.mantine-augnbd>thead>tr>th {
+  font-family: 'Public Sans';
+}
+
+/* .deactive-btn{
+    background-color: var(--primary-color-two) !important;
+}
+.active-btn {
+    padding-right: 39px !important;
+    background-color: var(--primary-color-one) !important;
+    padding-left: 44px !important;
+} */
+/* .mantine-1flu9xd{
+    color: var(--supporting-color-three) !important;
+} */
+/* User Details CSS Ends */
+
+/* Knowledge All Experience Page */
+/* .card-color-webadminpges1{
+   background-color: var(--supporting-color-one);
+  }
+  .card-color-webadminpges2{
+    background-color: var(--supporting-color-two);
+   }
+   .card-color-webadminpges3{
+    background-color: var(--primary-color-two);
+   } */
+
+.card-color-webadminpges1,
+.card-color-webadminpges2,
+.card-color-webadminpges3 {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-title-style-webadmin {
+  font-family: 'Poppins' !important;
+  color: var(--white-color) !important;
+}
+
+.text-color {
+  color: var(--white-color) !important;
+}
+
+.assesment-card-bg-color1,
+.assesment-card-bg-color2 {
+  background-color: #DAE7FF !important;
+  border-radius: 10px;
+}
+
+.card-sub-txt-style {
+  font-family: 'Poppins' !important;
+  color: var(--text-color) !important;
+}
+
+.text-overflow-class-webadmin {
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  line-height: normal;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/*added by hp*/
+.fullheight {
+  height: calc(100vh - 190px);
+  overflow-x: auto;
+}
+
+/* .card-header {
+  background: var(--custom-color);
+  color: var(--white-color);
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.card-header h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  line-height: normal;
+  margin: 0;
+} */
+
+.dashboard-block {
+  border: 1px solid #E1E1E1;
+  display: block;
+  margin-bottom: 25px;
+  padding: 1.25rem 1.25rem;
+  border-radius: 10px;
+}
+
+.dashboard-block:hover {
+  text-decoration: none;
+  background: var(--custom-color);
+  color: var(--white-color);
+}
+
+.dashboard-block:hover img {
+  filter: invert(1);
+}
+
+.dashboard-card-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.dashboard-card-title img {
+  margin-right: 10px;
+}
+
+.dashboard-card-title span {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.dashboard-count {
+  font-size: 36px;
+  font-weight: 800;
+  border-bottom: 3px solid #EB643C;
+  display: inline-block;
+  padding-bottom: 15px;
+  color: var(--text-color);
+}
+
+.dashboard-block.a .dashboard-count {
+  border-color: #EB643C;
+}
+
+.dashboard-block.b .dashboard-count {
+  border-color: #24C078;
+}
+
+.dashboard-block.c .dashboard-count {
+  border-color: #0053BB;
+}
+
+.dashboard-block.d .dashboard-count {
+  border-color: #D94E6B;
+}
+
+.dashboard-block.e .dashboard-count {
+  border-color: #A60075;
+}
+
+.dashboard-block.f .dashboard-count {
+  border-color: #0048B9;
+}
+
+.dashboard-block:hover .dashboard-count {
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+.dashboard-block:hover span {
+  color: var(--white-color);
+}
+
+
+/*mantine datatable css*/
+.mantine-1u6lyog th div,
+.mantine-1u6lyog th button {
+  color: #480082;
+  opacity: 1;
+  justify-content: space-between;
+}
+
+.badge {
+  /* padding: 10px; */
+  font-size: 12px;
+  font-weight: 500;
+} 
+
+/* .deactive-btn,
+.active-btn {
+  border: none;
+  font-weight: 600;
+}*/
+.bg-danger {
+  color: #FE754A;
+  background: rgba(254, 117, 74, 0.15) !important;
+}
+.bg-primary {
+  color: #1CA4E8;
+  background: rgba(28, 164, 232, 0.15) !important;
+}
+.mantine-16zezzz{
+  padding: 0;
+}
+.mantine-14l4oxf {
+  color: var(--custom-color) !important;
+}
+
+table .badge {
+  width: 100px;
+  font-size: 14px;
+}
+div:where(.swal2-container).swal2-center>.swal2-popup {
+  padding: 20px;
+}
+.mantine-16k3d8y{
+  z-index: 0;
+}

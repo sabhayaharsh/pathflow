@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: #282828;
+  --text-light-color: #757575;
+  --custom-color: #480082;
+  --secondary-color: #fbb03b;
+  --white-color: #fff;
+  --border-color: #e3e3e3;
+  --success-color: #35ba67;
+  --primary-color: #1ca4e8;
+  --danger-color: #fd4646;
+  --progress-bar-color: #7eb155;
+}
+.text-custom {
+  color: var(--custom-color) !important;
+}
+::selection {
+  background: var(--custom-color);
+  color: var(--white-color);
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  width: 210mm;
+  height: auto;
+  font-family: "Public Sans", sans-serif;
+  margin: 20px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 10px solid #FBB03B;
+  border: 1px solid #e1e1e1;
+}
+a {
+  color: var(--text-color);
+  line-height: normal;
+}
+a:focus,
+a:hover {
+  color: var(--custom-color);
+}
+.card{
+    border-radius: 10px;
+}
+.btn-custom {
+  background: var(--custom-color) !important;
+  border-color: var(--custom-color);
+  color: var(--white-color) !important;
+  text-transform: capitalize;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 8px 20px;
+}
+.btn-custom:hover {
+  background-color: #380064;
+  border-color: var(--custom-color);
+  color: var(--white-color);
+  text-decoration: none;
+}
+.btn-success {
+  background-color: var(--success-color);
+}
+.btn-success:hover {
+  background-color: #1a9548;
+  color: var(--white-color);
+}
+.btn-outline-custom {
+  background-color: var(--white-color);
+  border-color: var(--custom-color);
+  color: var(--custom-color);
+  border-width: 1px;
+  font-weight: 600;
+}
+.btn-outline-custom:hover {
+  border-color: var(--custom-color);
+  background: var(--custom-color);
+  color: var(--white-color);
+}
+.btn-outline-custom.selected {
+  background: var(--custom-color);
+  color: var(--white-color);
+}
+.badge {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 10px;
+  border: none;
+}
+.font-lg {
+  font-weight: 300;
+}
+.font-rg {
+  font-weight: 400;
+}
+.font-md {
+  font-weight: 500;
+}
+.font-smb {
+  font-weight: 600;
+}
+.font-bd {
+  font-weight: 900;
+}
+.bg-warning {
+  background-color: #ffc10730;
+  color: #fbb03b;
+}
+.bg-primary {
+  background: rgba(28, 164, 232) !important;
+}
+.bg-danger {
+  background: rgba(253, 70, 70) !important;
+}
+.bg-success {
+  background: rgba(53, 186, 103) !important;
+}
+
+.header {
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.add-save-dropdown-taskpge,
+.add-save-panel {
+  align-items: center;
+  justify-content: space-between;
+  background: var(--custom-color);
+  border-radius: 10px;
+  display: flex;
+  padding: 18px;
+  position: relative;
+}
+.add-save-panel .form-control {
+  line-height: normal;
+  background: #ffffff2e;
+  border: none;
+  color: var(--white-color);
+  font-size: 14px;
+  width: 500px;
+  padding: 12px;
+}
+
+
+
+.custom-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    background: var(--custom-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.custom-title h3 {
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--white-color);
+}
+
+
+
+
+.notes-tasks-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--custom-color);
+}
+.notes-tasks-header h3 {
+    background: #F0F0F0;
+    margin: 0;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.card-list {
+    padding: 0;
+}
+.card-list li {
+    list-style: none;
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.card-list li:before {
+    content: '\F26E';
+    font-family: 'bootstrap-icons';
+    color: var(--custom-color);
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    left: 0;
+}
+
+
+
+.grade {
+    margin: 0;
+    padding: 0;
+}
+.grade li {
+    list-style: none;
+    display: inline-block;
+}
+.grade li span {
+    padding: 10px;
+    border: 1px solid var(--custom-color);
+    line-height: normal;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+.grade li span.active {
+    background-color: var(--custom-color);
+    color: var(--white-color);
+}
+
+
+
+.btn-outline-custom.active {
+    background: var(--custom-color);
+    color: var(--white-color);
+}
+
+
+.text-bg {
+    background: #F7F7F7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.form-switch {
+    position: relative;
+}
+.form-switch .form-check-input {
+    width: 70px;
+    height: 30px;
+}
+.form-check-input:checked {
+    background-color: var(--custom-color)
+}
+
+.form-check-input:checked,.form-check-input:focus,.form-control:focus {
+    border-color: var(--custom-color)
+}
+
+.no,.yes {
+    position: absolute;
+    top: 5px;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize
+}
+.yes {
+    left: 12px;
+    color: #fff
+}
+.no {
+    left: 35px
+}
+
+
+
+
+
+.uploader-status {
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.image-wrapper img {
+    width: 60px;
+}
+.text-bg p {
+    margin: 0;
+}
+.upper-heading h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.uploader-status.image_thumbnail .image-wrapper img {
+    width: 100px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100px;
+}
