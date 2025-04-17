@@ -15,6 +15,7 @@ dotenv.config();
 //     console.log('Connected to MySQL database');
 // });
 
+
 const pool = mysql.createPool({
     connectionLimit: 5,
     host: process.env.DBHOST,
